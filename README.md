@@ -14,25 +14,21 @@ Aplikasi manajemen data KTP (Kartu Tanda Penduduk) berbasis **REST API Spring Bo
 
 ### Light Mode
 
-![Tampilan Light Mode]
 <img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/3244b644-eb5c-45ee-a394-b4b41b831cd5" />
 
 
 ### Dark Mode
 
-![Tampilan Dark Mode]
 <img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/19b6b08c-dd0a-46d8-aadd-2e99652b346e" />
 
 
 ### Tambah Data KTP
 
-![Form Tambah KTP]
 <img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/e231f228-25bb-42ae-8738-2630cf14752f" />
 
 
 ### Tabel Data KTP
 
-![Tabel Data KTP]
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/74fb3acc-6da2-49a2-92b7-41d57523b8c2" />
 
 
