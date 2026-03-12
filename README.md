@@ -10,8 +10,6 @@ Aplikasi manajemen data KTP (Kartu Tanda Penduduk) berbasis **REST API Spring Bo
 
 ## 📸 Tampilan Aplikasi
 
-> **Petunjuk:** Ganti placeholder di bawah ini dengan screenshot hasil tampilan aplikasi kamu.
-
 ### Light Mode
 
 <img width="1920" height="1045" alt="image" src="https://github.com/user-attachments/assets/3244b644-eb5c-45ee-a394-b4b41b831cd5" />
