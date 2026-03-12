@@ -13,6 +13,34 @@ let pendingDeleteId = null;  // Menyimpan id yang akan dihapus
 $(document).ready(function () {
     loadAllKtp();
 
+    // ── Theme Toggle ──────────────────────────────
+    // Load saved theme (default: light)
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    if (savedTheme === 'dark') applyDark();
+
+    $('#btn-theme').on('click', function () {
+        if ($('body').hasClass('dark')) {
+            applyLight();
+        } else {
+            applyDark();
+        }
+    });
+
+    function applyDark() {
+        $('body').addClass('dark');
+        $('#theme-icon').text('☀️');
+        $('#theme-label').text('Light Mode');
+        localStorage.setItem('theme', 'dark');
+    }
+
+    function applyLight() {
+        $('body').removeClass('dark');
+        $('#theme-icon').text('🌙');
+        $('#theme-label').text('Dark Mode');
+        localStorage.setItem('theme', 'light');
+    }
+    // ─────────────────────────────────────────────
+
     // Submit form (Create / Update)
     $('#ktp-form').on('submit', function (e) {
         e.preventDefault();
